@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.junit.platform:junit-platform-suite-api:1.0.0-M4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.junit.platform/junit-platform-suite-api/jars/junit-platform-suite-api-1.0.0-M4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.junit.platform/junit-platform-suite-api/srcs/junit-platform-suite-api-1.0.0-M4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

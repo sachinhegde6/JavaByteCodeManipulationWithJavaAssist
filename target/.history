@@ -1,0 +1,53 @@
+scala pomtosbt.scala > build.sbt
+scala pomtosbt.scala
+run
+exit
+test
+run
+test
+test:run
+run
+test:console
+compile
+~testquick
+test
+testonly nl.tudelft.jpacman.game
+testOnly nl.tudelft.jpacman.game.GameFactoryTest
+test
+testOnly nl.tudelft.jpacman.game.GameFactoryTest
+test
+exit
+test
+tests
+run
+{file:/C:/Users/Ashwin%20PC/Downloads/jpacman-framework/}jpacman-framework/run
+{file:/C:/Users/Ashwin%20PC/Downloads/jpacman-framework/}jpacman-framework/test
+{file:/C:/Users/Ashwin%20PC/Downloads/jpacman-framework/}jpacman-framework/testListeners
+{file:/C:/Users/Ashwin%20PC/Downloads/jpacman-framework/}jpacman-framework/testOptions
+run
+build
+run
+tasks
+compile
+test
+run
+exit
+compilwe
+compile
+run
+exit
+compile
+run
+compile
+last compile:compileIncremental
+compile
+run
+exit
+compile
+tasks
+exit
+compile
+runMain Comparator
+runMain nl.tudelft.jpacman.Launcher
+runMain JavaAssistManipulator
+exit

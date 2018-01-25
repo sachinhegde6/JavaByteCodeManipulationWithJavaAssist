@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="nl.tudelft.jpacman"
+		module="jpacman-framework"
+		revision="1.0-SNAPSHOT"
+		status="integration"
+		publication="20171113211614"
+	>
+		<description>
+		Pacman Game Project
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="jpacman-framework" type="pom" ext="pom" conf="pom"/>
+		<artifact name="jpacman-framework" type="jar" ext="jar" conf="compile"/>
+		<artifact name="jpacman-framework" type="jar" ext="jar" conf="test" e:classifier="tests"/>
+		<artifact name="jpacman-framework" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="jpacman-framework" type="src" ext="jar" conf="sources" e:classifier="tests-sources"/>
+		<artifact name="jpacman-framework" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		<artifact name="jpacman-framework" type="doc" ext="jar" conf="docs" e:classifier="tests-javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.6" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="javassist" name="javassist" rev="3.12.1.GA" conf="compile->default(compile)"/>
+		<dependency org="org.eclipse.jdt" name="org.eclipse.jdt.core" rev="3.10.0" conf="compile->default(compile)"/>
+		<dependency org="com.google.guava" name="guava" rev="21.0" conf="compile->default(compile)"/>
+		<dependency org="org.junit.vintage" name="junit-vintage-engine" rev="4.12.0-M4" conf="compile->default(compile)"/>
+		<dependency org="org.checkerframework" name="checker-qual" rev="2.1.10" conf="compile->default(compile)"/>
+		<dependency org="org.checkerframework" name="checker" rev="2.1.10" conf="compile->default(compile)"/>
+		<dependency org="org.checkerframework" name="jdk8" rev="2.1.10" conf="compile->default(compile)"/>
+		<dependency org="org.junit.jupiter" name="junit-jupiter-api" rev="5.0.0-M4" conf="test->default(compile)"/>
+		<dependency org="org.junit.jupiter" name="junit-jupiter-engine" rev="5.0.0-M4" conf="test->default(compile)"/>
+		<dependency org="org.junit.jupiter" name="junit-jupiter-params" rev="5.0.0-M4" conf="test->default(compile)"/>
+		<dependency org="org.junit.platform" name="junit-platform-runner" rev="1.0.0-M4" conf="test->default(compile)"/>
+		<dependency org="org.junit.platform" name="junit-platform-launcher" rev="1.0.0-M4" conf="test->default(compile)"/>
+		<dependency org="junit" name="junit" rev="4.12" conf="test->default(compile)"/>
+		<dependency org="org.mockito" name="mockito-core" rev="2.7.19" conf="compile->default(compile)"/>
+		<dependency org="org.assertj" name="assertj-core" rev="3.6.2" conf="compile->default(compile)"/>
+		<dependency org="info.cukes" name="cucumber-java" rev="1.2.5" conf="compile->default(compile)"/>
+		<dependency org="info.cukes" name="cucumber-junit" rev="1.2.5" conf="compile->default(compile)"/>
+	</dependencies>
+</ivy-module>

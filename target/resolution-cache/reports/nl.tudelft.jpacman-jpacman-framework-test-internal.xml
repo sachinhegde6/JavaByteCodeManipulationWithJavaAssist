@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="nl.tudelft.jpacman"
+		module="jpacman-framework"
+		revision="1.0-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20171113211614"/>
+	<dependencies>
+		<module organisation="org.junit.jupiter" name="junit-jupiter-params">
+			<revision name="5.0.0-M4" status="release" pubdate="20170401142421" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="39">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3748" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.jupiter\junit-jupiter-params\ivy-5.0.0-M4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-params/5.0.0-M4/junit-jupiter-params-5.0.0-M4.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="5.0.0-M4" rev-constraint-default="5.0.0-M4" rev-constraint-dynamic="5.0.0-M4" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="junit-jupiter-params" type="jar" ext="jar" status="no" details="" size="414094" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.jupiter\junit-jupiter-params\jars\junit-jupiter-params-5.0.0-M4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-params/5.0.0-M4/junit-jupiter-params-5.0.0-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter-engine">
+			<revision name="5.0.0-M4" status="release" pubdate="20170401142330" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="38">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3678" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.jupiter\junit-jupiter-engine\ivy-5.0.0-M4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.0.0-M4/junit-jupiter-engine-5.0.0-M4.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="5.0.0-M4" rev-constraint-default="5.0.0-M4" rev-constraint-dynamic="5.0.0-M4" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="junit-jupiter-engine" type="jar" ext="jar" status="no" details="" size="109018" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.jupiter\junit-jupiter-engine\jars\junit-jupiter-engine-5.0.0-M4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.0.0-M4/junit-jupiter-engine-5.0.0-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="info.cukes" name="cucumber-java">
+			<revision name="1.2.5" status="release" pubdate="20160912170916" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="31">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license"/>
+				<metadata-artifact status="no" details="" size="20462" time="0" location="C:\Users\ngpgo\.ivy2\cache\info.cukes\cucumber-java\ivy-1.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cucumber-java" type="jar" ext="jar" status="no" details="" size="238240" time="0" location="C:\Users\ngpgo\.ivy2\cache\info.cukes\cucumber-java\jars\cucumber-java-1.2.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="info.cukes" name="cucumber-junit">
+			<revision name="1.2.5" status="release" pubdate="20160912170748" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license"/>
+				<metadata-artifact status="no" details="" size="20263" time="0" location="C:\Users\ngpgo\.ivy2\cache\info.cukes\cucumber-junit\ivy-1.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cucumber-junit" type="jar" ext="jar" status="no" details="" size="21648" time="0" location="C:\Users\ngpgo\.ivy2\cache\info.cukes\cucumber-junit\jars\cucumber-junit-1.2.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="info.cukes" name="cucumber-core">
+			<revision name="1.2.5" status="release" pubdate="20160912170611" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license"/>
+				<metadata-artifact status="no" details="" size="20978" time="0" location="C:\Users\ngpgo\.ivy2\cache\info.cukes\cucumber-core\ivy-1.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.pom"/>
+				<caller organisation="info.cukes" name="cucumber-junit" conf="default, compile, runtime, master" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="1.2.5"/>
+				<caller organisation="info.cukes" name="cucumber-java" conf="default, compile, runtime, master" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="1.2.5"/>
+				<artifacts>
+					<artifact name="cucumber-core" type="jar" ext="jar" status="no" details="" size="227899" time="0" location="C:\Users\ngpgo\.ivy2\cache\info.cukes\cucumber-core\jars\cucumber-core-1.2.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="info.cukes" name="gherkin">
+			<revision name="2.12.2" status="release" pubdate="20131012101558" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/cucumber/gherkin" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license"/>
+				<metadata-artifact status="no" details="" size="4150" time="0" location="C:\Users\ngpgo\.ivy2\cache\info.cukes\gherkin\ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/info/cukes/gherkin/2.12.2/gherkin-2.12.2.pom"/>
+				<caller organisation="info.cukes" name="cucumber-core" conf="compile, runtime" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="1.2.5"/>
+				<artifacts>
+					<artifact name="gherkin" type="bundle" ext="jar" status="no" details="" size="1750919" time="0" location="C:\Users\ngpgo\.ivy2\cache\info.cukes\gherkin\bundles\gherkin-2.12.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="info.cukes" name="cucumber-jvm-deps">
+			<revision name="1.0.5" status="release" pubdate="20150706183334" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/cucumber/cucumber-jvm-deps" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="BSD License" url="http://xstream.codehaus.org/license.html"/>
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3212" time="0" location="C:\Users\ngpgo\.ivy2\cache\info.cukes\cucumber-jvm-deps\ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.pom"/>
+				<caller organisation="info.cukes" name="cucumber-core" conf="compile, runtime" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="1.2.5"/>
+				<artifacts>
+					<artifact name="cucumber-jvm-deps" type="jar" ext="jar" status="no" details="" size="603806" time="0" location="C:\Users\ngpgo\.ivy2\cache\info.cukes\cucumber-jvm-deps\jars\cucumber-jvm-deps-1.0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="info.cukes" name="cucumber-html">
+			<revision name="0.2.3" status="release" pubdate="20130519044932" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license"/>
+				<metadata-artifact status="no" details="" size="3002" time="0" location="C:\Users\ngpgo\.ivy2\cache\info.cukes\cucumber-html\ivy-0.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.pom"/>
+				<caller organisation="info.cukes" name="cucumber-core" conf="compile, runtime" rev="0.2.3" rev-constraint-default="0.2.3" rev-constraint-dynamic="0.2.3" callerrev="1.2.5"/>
+				<artifacts>
+					<artifact name="cucumber-html" type="jar" ext="jar" status="no" details="" size="38706" time="0" location="C:\Users\ngpgo\.ivy2\cache\info.cukes\cucumber-html\jars\cucumber-html-0.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.checkerframework" name="jdk8">
+			<revision name="2.1.10" status="release" pubdate="20170403164149" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://checkerframework.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+				<license name="GNU General Public License, version 2 (GPL2), with the classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="2862" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.checkerframework\jdk8\ivy-2.1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/checkerframework/jdk8/2.1.10/jdk8-2.1.10.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.10" rev-constraint-default="2.1.10" rev-constraint-dynamic="2.1.10" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jdk8" type="jar" ext="jar" status="no" details="" size="721882" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.checkerframework\jdk8\jars\jdk8-2.1.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/checkerframework/jdk8/2.1.10/jdk8-2.1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.checkerframework" name="checker">
+			<revision name="2.1.10" status="release" pubdate="20170403163943" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://checkerframework.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<license name="GNU General Public License, version 2 (GPL2), with the classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="2931" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.checkerframework\checker\ivy-2.1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/checkerframework/checker/2.1.10/checker-2.1.10.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.10" rev-constraint-default="2.1.10" rev-constraint-dynamic="2.1.10" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="checker" type="jar" ext="jar" status="no" details="" size="18199113" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.checkerframework\checker\jars\checker-2.1.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/checkerframework/checker/2.1.10/checker-2.1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.checkerframework" name="checker-qual">
+			<revision name="2.1.10" status="release" pubdate="20170403164011" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://checkerframework.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<license name="GNU General Public License, version 2 (GPL2), with the classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<license name="The MIT License" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2851" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.checkerframework\checker-qual\ivy-2.1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/checkerframework/checker-qual/2.1.10/checker-qual-2.1.10.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.10" rev-constraint-default="2.1.10" rev-constraint-dynamic="2.1.10" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="checker-qual" type="jar" ext="jar" status="no" details="" size="176958" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.checkerframework\checker-qual\jars\checker-qual-2.1.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/checkerframework/checker-qual/2.1.10/checker-qual-2.1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.vintage" name="junit-vintage-engine">
+			<revision name="4.12.0-M4" status="release" pubdate="20170401142725" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3776" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.vintage\junit-vintage-engine\ivy-4.12.0-M4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/4.12.0-M4/junit-vintage-engine-4.12.0-M4.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="4.12.0-M4" rev-constraint-default="4.12.0-M4" rev-constraint-dynamic="4.12.0-M4" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="junit-vintage-engine" type="jar" ext="jar" status="no" details="" size="51034" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.vintage\junit-vintage-engine\jars\junit-vintage-engine-4.12.0-M4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/4.12.0-M4/junit-vintage-engine-4.12.0-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mockito" name="mockito-core">
+			<revision name="2.7.19" status="release" pubdate="20170319091138" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mockito.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="26">
+				<license name="The MIT License" url="http://github.com/mockito/mockito/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2984" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.mockito\mockito-core\ivy-2.7.19.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mockito/mockito-core/2.7.19/mockito-core-2.7.19.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.19" rev-constraint-default="2.7.19" rev-constraint-dynamic="2.7.19" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="mockito-core" type="jar" ext="jar" status="no" details="" size="533345" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.mockito\mockito-core\jars\mockito-core-2.7.19.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mockito/mockito-core/2.7.19/mockito-core-2.7.19.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="2.5" status="release" pubdate="20170112224021" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://objenesis.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3493" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.objenesis\objenesis\ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5/objenesis-2.5.pom"/>
+				<caller organisation="org.mockito" name="mockito-core" conf="default, compile, runtime, master" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="2.7.19"/>
+				<artifacts>
+					<artifact name="objenesis" type="jar" ext="jar" status="no" details="" size="54393" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.objenesis\objenesis\jars\objenesis-2.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.5/objenesis-2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.bytebuddy" name="byte-buddy-agent">
+			<revision name="1.6.11" status="release" pubdate="20170312132336" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8062" time="0" location="C:\Users\ngpgo\.ivy2\cache\net.bytebuddy\byte-buddy-agent\ivy-1.6.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11.pom"/>
+				<caller organisation="org.mockito" name="mockito-core" conf="default, compile, runtime, master" rev="1.6.11" rev-constraint-default="1.6.11" rev-constraint-dynamic="1.6.11" callerrev="2.7.19"/>
+				<artifacts>
+					<artifact name="byte-buddy-agent" type="jar" ext="jar" status="no" details="" size="31084" time="0" location="C:\Users\ngpgo\.ivy2\cache\net.bytebuddy\byte-buddy-agent\jars\byte-buddy-agent-1.6.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.11/byte-buddy-agent-1.6.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.bytebuddy" name="byte-buddy">
+			<revision name="1.6.11" status="release" pubdate="20170312132344" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7846" time="0" location="C:\Users\ngpgo\.ivy2\cache\net.bytebuddy\byte-buddy\ivy-1.6.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11.pom"/>
+				<caller organisation="org.mockito" name="mockito-core" conf="default, compile, runtime, master" rev="1.6.11" rev-constraint-default="1.6.11" rev-constraint-dynamic="1.6.11" callerrev="2.7.19"/>
+				<artifacts>
+					<artifact name="byte-buddy" type="jar" ext="jar" status="no" details="" size="2783513" time="0" location="C:\Users\ngpgo\.ivy2\cache\net.bytebuddy\byte-buddy\jars\byte-buddy-1.6.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.platform" name="junit-platform-runner">
+			<revision name="1.0.0-M4" status="release" pubdate="20170401142615" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3064" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.platform\junit-platform-runner\ivy-1.0.0-M4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-runner/1.0.0-M4/junit-platform-runner-1.0.0-M4.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.0-M4" rev-constraint-default="1.0.0-M4" rev-constraint-dynamic="1.0.0-M4" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="junit-platform-runner" type="jar" ext="jar" status="no" details="" size="16403" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.platform\junit-platform-runner\jars\junit-platform-runner-1.0.0-M4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-runner/1.0.0-M4/junit-platform-runner-1.0.0-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.platform" name="junit-platform-suite-api">
+			<revision name="1.0.0-M4" status="release" pubdate="20170401142628" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2778" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.platform\junit-platform-suite-api\ivy-1.0.0-M4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-suite-api/1.0.0-M4/junit-platform-suite-api-1.0.0-M4.pom"/>
+				<caller organisation="org.junit.platform" name="junit-platform-runner" conf="default, compile, runtime, master" rev="1.0.0-M4" rev-constraint-default="1.0.0-M4" rev-constraint-dynamic="1.0.0-M4" callerrev="1.0.0-M4"/>
+				<artifacts>
+					<artifact name="junit-platform-suite-api" type="jar" ext="jar" status="no" details="" size="11760" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.platform\junit-platform-suite-api\jars\junit-platform-suite-api-1.0.0-M4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-suite-api/1.0.0-M4/junit-platform-suite-api-1.0.0-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter-api">
+			<revision name="5.0.0-M4" status="release" pubdate="20170401142257" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="37">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2903" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.jupiter\junit-jupiter-api\ivy-5.0.0-M4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.0.0-M4/junit-jupiter-api-5.0.0-M4.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-engine" conf="default, compile, runtime, master" rev="5.0.0-M4" rev-constraint-default="5.0.0-M4" rev-constraint-dynamic="5.0.0-M4" callerrev="5.0.0-M4"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="5.0.0-M4" rev-constraint-default="5.0.0-M4" rev-constraint-dynamic="5.0.0-M4" callerrev="1.0-SNAPSHOT"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-params" conf="default, compile, runtime, master" rev="5.0.0-M4" rev-constraint-default="5.0.0-M4" rev-constraint-dynamic="5.0.0-M4" callerrev="5.0.0-M4"/>
+				<artifacts>
+					<artifact name="junit-jupiter-api" type="jar" ext="jar" status="no" details="" size="72260" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.jupiter\junit-jupiter-api\jars\junit-jupiter-api-5.0.0-M4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.0.0-M4/junit-jupiter-api-5.0.0-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.platform" name="junit-platform-launcher">
+			<revision name="1.0.0-M4" status="release" pubdate="20170401142600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="41">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2774" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.platform\junit-platform-launcher\ivy-1.0.0-M4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-launcher/1.0.0-M4/junit-platform-launcher-1.0.0-M4.pom"/>
+				<caller organisation="org.junit.platform" name="junit-platform-runner" conf="default, compile, runtime, master" rev="1.0.0-M4" rev-constraint-default="1.0.0-M4" rev-constraint-dynamic="1.0.0-M4" callerrev="1.0.0-M4"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.0-M4" rev-constraint-default="1.0.0-M4" rev-constraint-dynamic="1.0.0-M4" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="junit-platform-launcher" type="jar" ext="jar" status="no" details="" size="50286" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.platform\junit-platform-launcher\jars\junit-platform-launcher-1.0.0-M4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-launcher/1.0.0-M4/junit-platform-launcher-1.0.0-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.platform" name="junit-platform-engine">
+			<revision name="1.0.0-M4" status="release" pubdate="20170401142524" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.platform\junit-platform-engine\ivy-1.0.0-M4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-engine/1.0.0-M4/junit-platform-engine-1.0.0-M4.pom"/>
+				<caller organisation="org.junit.platform" name="junit-platform-launcher" conf="compile, runtime" rev="1.0.0-M4" rev-constraint-default="1.0.0-M4" rev-constraint-dynamic="1.0.0-M4" callerrev="1.0.0-M4"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-engine" conf="default, compile, runtime, master" rev="1.0.0-M4" rev-constraint-default="1.0.0-M4" rev-constraint-dynamic="1.0.0-M4" callerrev="5.0.0-M4"/>
+				<caller organisation="org.junit.vintage" name="junit-vintage-engine" conf="default, compile, runtime, master" rev="1.0.0-M4" rev-constraint-default="1.0.0-M4" rev-constraint-dynamic="1.0.0-M4" callerrev="4.12.0-M4"/>
+				<artifacts>
+					<artifact name="junit-platform-engine" type="jar" ext="jar" status="no" details="" size="82365" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.platform\junit-platform-engine\jars\junit-platform-engine-1.0.0-M4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-engine/1.0.0-M4/junit-platform-engine-1.0.0-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.assertj" name="assertj-core">
+			<revision name="3.6.2" status="release" pubdate="20170121024423" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5738" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.assertj\assertj-core\ivy-3.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/assertj/assertj-core/3.6.2/assertj-core-3.6.2.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="3.6.2" rev-constraint-default="3.6.2" rev-constraint-dynamic="3.6.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="assertj-core" type="bundle" ext="jar" status="no" details="" size="1129451" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.assertj\assertj-core\bundles\assertj-core-3.6.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/assertj/assertj-core/3.6.2/assertj-core-3.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.opentest4j" name="opentest4j">
+			<revision name="1.0.0-M2" status="release" pubdate="20170401051410" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ota4j-team/opentest4j" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2689" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.opentest4j\opentest4j\ivy-1.0.0-M2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.0.0-M2/opentest4j-1.0.0-M2.pom"/>
+				<caller organisation="org.junit.platform" name="junit-platform-engine" conf="compile, runtime" rev="1.0.0-M2" rev-constraint-default="1.0.0-M2" rev-constraint-dynamic="1.0.0-M2" callerrev="1.0.0-M4"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-api" conf="default, compile, runtime, master" rev="1.0.0-M2" rev-constraint-default="1.0.0-M2" rev-constraint-dynamic="1.0.0-M2" callerrev="5.0.0-M4"/>
+				<artifacts>
+					<artifact name="opentest4j" type="jar" ext="jar" status="no" details="" size="6570" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.opentest4j\opentest4j\jars\opentest4j-1.0.0-M2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.0.0-M2/opentest4j-1.0.0-M2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.12" status="release" pubdate="20141204101743" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="21">
+				<license name="Eclipse Public License 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3354" time="0" location="C:\Users\ngpgo\.ivy2\cache\junit\junit\ivy-4.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom"/>
+				<caller organisation="info.cukes" name="cucumber-junit" conf="default, compile, runtime, master" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="1.2.5"/>
+				<caller organisation="org.junit.platform" name="junit-platform-runner" conf="default, compile, runtime, master" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="1.0.0-M4"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="1.0-SNAPSHOT"/>
+				<caller organisation="org.junit.vintage" name="junit-vintage-engine" conf="default, compile, runtime, master" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="4.12.0-M4"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="314932" time="0" location="C:\Users\ngpgo\.ivy2\cache\junit\junit\jars\junit-4.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-core">
+			<revision name="1.3" status="release" pubdate="20120709160802" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2647" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.hamcrest\hamcrest-core\ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom"/>
+				<caller organisation="junit" name="junit" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="4.12"/>
+				<artifacts>
+					<artifact name="hamcrest-core" type="jar" ext="jar" status="no" details="" size="45024" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.hamcrest\hamcrest-core\jars\hamcrest-core-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.platform" name="junit-platform-commons">
+			<revision name="1.0.0-M4" status="release" pubdate="20170401142437" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2574" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.platform\junit-platform-commons\ivy-1.0.0-M4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.0.0-M4/junit-platform-commons-1.0.0-M4.pom"/>
+				<caller organisation="org.junit.platform" name="junit-platform-suite-api" conf="compile, runtime" rev="1.0.0-M4" rev-constraint-default="1.0.0-M4" rev-constraint-dynamic="1.0.0-M4" callerrev="1.0.0-M4"/>
+				<caller organisation="org.junit.platform" name="junit-platform-engine" conf="compile, runtime" rev="1.0.0-M4" rev-constraint-default="1.0.0-M4" rev-constraint-dynamic="1.0.0-M4" callerrev="1.0.0-M4"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-api" conf="default, compile, runtime, master" rev="1.0.0-M4" rev-constraint-default="1.0.0-M4" rev-constraint-dynamic="1.0.0-M4" callerrev="5.0.0-M4"/>
+				<artifacts>
+					<artifact name="junit-platform-commons" type="jar" ext="jar" status="no" details="" size="53268" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.junit.platform\junit-platform-commons\jars\junit-platform-commons-1.0.0-M4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.0.0-M4/junit-platform-commons-1.0.0-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="21.0" status="release" pubdate="20170112132249" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7231" time="0" location="C:\Users\ngpgo\.ivy2\cache\com.google.guava\guava\ivy-21.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="21.0" rev-constraint-default="21.0" rev-constraint-dynamic="21.0" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guava" type="bundle" ext="jar" status="no" details="" size="2521113" time="0" location="C:\Users\ngpgo\.ivy2\cache\com.google.guava\guava\bundles\guava-21.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jdt" name="org.eclipse.jdt.core">
+			<revision name="3.10.0" status="release" pubdate="20150202091916" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3364" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.jdt\org.eclipse.jdt.core\ivy-3.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jdt/org.eclipse.jdt.core/3.10.0/org.eclipse.jdt.core-3.10.0.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="3.10.0" rev-constraint-default="3.10.0" rev-constraint-dynamic="3.10.0" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="org.eclipse.jdt.core" type="jar" ext="jar" status="no" details="" size="5565845" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.jdt\org.eclipse.jdt.core\jars\org.eclipse.jdt.core-3.10.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jdt/org.eclipse.jdt.core/3.10.0/org.eclipse.jdt.core-3.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.text" name="org.eclipse.text">
+			<revision name="3.5.101" status="release" pubdate="20131023150749" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2880" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.text\org.eclipse.text\ivy-3.5.101.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/text/org.eclipse.text/3.5.101/org.eclipse.text-3.5.101.pom"/>
+				<caller organisation="org.eclipse.jdt" name="org.eclipse.jdt.core" conf="default, compile, runtime, master" rev="3.5.101" rev-constraint-default="3.5.101" rev-constraint-dynamic="3.5.101" callerrev="3.10.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.text" type="jar" ext="jar" status="no" details="" size="248178" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.text\org.eclipse.text\jars\org.eclipse.text-3.5.101.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/text/org.eclipse.text/3.5.101/org.eclipse.text-3.5.101.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.core" name="org.eclipse.core.commands">
+			<revision name="3.6.0" status="release" pubdate="20131023141623" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2552" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.core\org.eclipse.core.commands\ivy-3.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/core/org.eclipse.core.commands/3.6.0/org.eclipse.core.commands-3.6.0.pom"/>
+				<caller organisation="org.eclipse.text" name="org.eclipse.text" conf="compile, runtime" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="3.5.101"/>
+				<artifacts>
+					<artifact name="org.eclipse.core.commands" type="jar" ext="jar" status="no" details="" size="107210" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.core\org.eclipse.core.commands\jars\org.eclipse.core.commands-3.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/core/org.eclipse.core.commands/3.6.0/org.eclipse.core.commands-3.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.core" name="org.eclipse.core.resources">
+			<revision name="3.7.100" status="release" pubdate="20131023154640" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3223" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.core\org.eclipse.core.resources\ivy-3.7.100.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/core/org.eclipse.core.resources/3.7.100/org.eclipse.core.resources-3.7.100.pom"/>
+				<caller organisation="org.eclipse.jdt" name="org.eclipse.jdt.core" conf="default, compile, runtime, master" rev="3.7.100" rev-constraint-default="3.7.100" rev-constraint-dynamic="3.7.100" callerrev="3.10.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.core.resources" type="jar" ext="jar" status="no" details="" size="810220" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.core\org.eclipse.core.resources\jars\org.eclipse.core.resources-3.7.100.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/core/org.eclipse.core.resources/3.7.100/org.eclipse.core.resources-3.7.100.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.core" name="org.eclipse.core.filesystem">
+			<revision name="1.3.100" status="release" pubdate="20131023151518" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3075" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.core\org.eclipse.core.filesystem\ivy-1.3.100.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/core/org.eclipse.core.filesystem/1.3.100/org.eclipse.core.filesystem-1.3.100.pom"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.resources" conf="compile, runtime" rev="1.3.100" rev-constraint-default="1.3.100" rev-constraint-dynamic="1.3.100" callerrev="3.7.100"/>
+				<caller organisation="org.eclipse.jdt" name="org.eclipse.jdt.core" conf="default, compile, runtime, master" rev="1.3.100" rev-constraint-default="1.3.100" rev-constraint-dynamic="1.3.100" callerrev="3.10.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.core.filesystem" type="jar" ext="jar" status="no" details="" size="53218" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.core\org.eclipse.core.filesystem\jars\org.eclipse.core.filesystem-1.3.100.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/core/org.eclipse.core.filesystem/1.3.100/org.eclipse.core.filesystem-1.3.100.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.core" name="org.eclipse.core.expressions">
+			<revision name="3.4.300" status="release" pubdate="20131023154340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2753" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.core\org.eclipse.core.expressions\ivy-3.4.300.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/core/org.eclipse.core.expressions/3.4.300/org.eclipse.core.expressions-3.4.300.pom"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.resources" conf="compile, runtime" rev="3.4.300" rev-constraint-default="3.4.300" rev-constraint-dynamic="3.4.300" callerrev="3.7.100"/>
+				<artifacts>
+					<artifact name="org.eclipse.core.expressions" type="jar" ext="jar" status="no" details="" size="86992" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.core\org.eclipse.core.expressions\jars\org.eclipse.core.expressions-3.4.300.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/core/org.eclipse.core.expressions/3.4.300/org.eclipse.core.expressions-3.4.300.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.core" name="org.eclipse.core.runtime">
+			<revision name="3.7.0" status="release" pubdate="20131023152935" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3883" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.core\org.eclipse.core.runtime\ivy-3.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/core/org.eclipse.core.runtime/3.7.0/org.eclipse.core.runtime-3.7.0.pom"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.resources" conf="compile, runtime" rev="3.7.0" rev-constraint-default="3.7.0" rev-constraint-dynamic="3.7.0" callerrev="3.7.100"/>
+				<caller organisation="org.eclipse.jdt" name="org.eclipse.jdt.core" conf="default, compile, runtime, master" rev="3.7.0" rev-constraint-default="3.7.0" rev-constraint-dynamic="3.7.0" callerrev="3.10.0"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.expressions" conf="compile, runtime" rev="3.7.0" rev-constraint-default="3.7.0" rev-constraint-dynamic="3.7.0" callerrev="3.4.300"/>
+				<artifacts>
+					<artifact name="org.eclipse.core.runtime" type="jar" ext="jar" status="no" details="" size="70526" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.core\org.eclipse.core.runtime\jars\org.eclipse.core.runtime-3.7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/core/org.eclipse.core.runtime/3.7.0/org.eclipse.core.runtime-3.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.equinox" name="org.eclipse.equinox.app">
+			<revision name="1.3.100" status="release" pubdate="20131029090229" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2556" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.app\ivy-1.3.100.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/equinox/org.eclipse.equinox.app/1.3.100/org.eclipse.equinox.app-1.3.100.pom"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.runtime" conf="compile, runtime" rev="1.3.100" rev-constraint-default="1.3.100" rev-constraint-dynamic="1.3.100" callerrev="3.7.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.equinox.app" type="jar" ext="jar" status="no" details="" size="85220" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.app\jars\org.eclipse.equinox.app-1.3.100.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/equinox/org.eclipse.equinox.app/1.3.100/org.eclipse.equinox.app-1.3.100.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.core" name="org.eclipse.core.contenttype">
+			<revision name="3.4.100" status="release" pubdate="20131023151044" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3103" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.core\org.eclipse.core.contenttype\ivy-3.4.100.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/core/org.eclipse.core.contenttype/3.4.100/org.eclipse.core.contenttype-3.4.100.pom"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.runtime" conf="compile, runtime" rev="3.4.100" rev-constraint-default="3.4.100" rev-constraint-dynamic="3.4.100" callerrev="3.7.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.core.contenttype" type="jar" ext="jar" status="no" details="" size="91961" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.core\org.eclipse.core.contenttype\jars\org.eclipse.core.contenttype-3.4.100.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/core/org.eclipse.core.contenttype/3.4.100/org.eclipse.core.contenttype-3.4.100.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.equinox" name="org.eclipse.equinox.preferences">
+			<revision name="3.4.1" status="release" pubdate="20131023134851" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2925" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.preferences\ivy-3.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/equinox/org.eclipse.equinox.preferences/3.4.1/org.eclipse.equinox.preferences-3.4.1.pom"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.contenttype" conf="compile, runtime" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="3.4.100"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.runtime" conf="compile, runtime" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="3.7.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.equinox.preferences" type="jar" ext="jar" status="no" details="" size="111595" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.preferences\jars\org.eclipse.equinox.preferences-3.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/equinox/org.eclipse.equinox.preferences/3.4.1/org.eclipse.equinox.preferences-3.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.equinox" name="org.eclipse.equinox.registry">
+			<revision name="3.5.101" status="release" pubdate="20131023134140" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2768" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.registry\ivy-3.5.101.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/equinox/org.eclipse.equinox.registry/3.5.101/org.eclipse.equinox.registry-3.5.101.pom"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.contenttype" conf="compile, runtime" rev="3.5.101" rev-constraint-default="3.5.101" rev-constraint-dynamic="3.5.101" callerrev="3.4.100"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.runtime" conf="compile, runtime" rev="3.5.101" rev-constraint-default="3.5.101" rev-constraint-dynamic="3.5.101" callerrev="3.7.0"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.filesystem" conf="compile, runtime" rev="3.5.101" rev-constraint-default="3.5.101" rev-constraint-dynamic="3.5.101" callerrev="1.3.100"/>
+				<artifacts>
+					<artifact name="org.eclipse.equinox.registry" type="jar" ext="jar" status="no" details="" size="183035" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.registry\jars\org.eclipse.equinox.registry-3.5.101.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/equinox/org.eclipse.equinox.registry/3.5.101/org.eclipse.equinox.registry-3.5.101.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.core" name="org.eclipse.core.jobs">
+			<revision name="3.5.100" status="release" pubdate="20131023152121" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2747" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.core\org.eclipse.core.jobs\ivy-3.5.100.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/core/org.eclipse.core.jobs/3.5.100/org.eclipse.core.jobs-3.5.100.pom"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.runtime" conf="compile, runtime" rev="3.5.100" rev-constraint-default="3.5.100" rev-constraint-dynamic="3.5.100" callerrev="3.7.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.core.jobs" type="jar" ext="jar" status="no" details="" size="91044" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.core\org.eclipse.core.jobs\jars\org.eclipse.core.jobs-3.5.100.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/core/org.eclipse.core.jobs/3.5.100/org.eclipse.core.jobs-3.5.100.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.equinox" name="org.eclipse.equinox.common">
+			<revision name="3.6.0" status="release" pubdate="20131023105238" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2558" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.common\ivy-3.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/equinox/org.eclipse.equinox.common/3.6.0/org.eclipse.equinox.common-3.6.0.pom"/>
+				<caller organisation="org.eclipse.equinox" name="org.eclipse.equinox.preferences" conf="compile, runtime" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="3.4.1"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.contenttype" conf="compile, runtime" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="3.4.100"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.jobs" conf="compile, runtime" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="3.5.100"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.runtime" conf="compile, runtime" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="3.7.0"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.filesystem" conf="compile, runtime" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="1.3.100"/>
+				<caller organisation="org.eclipse.text" name="org.eclipse.text" conf="compile, runtime" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="3.5.101"/>
+				<caller organisation="org.eclipse.equinox" name="org.eclipse.equinox.registry" conf="compile, runtime" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="3.5.101"/>
+				<artifacts>
+					<artifact name="org.eclipse.equinox.common" type="jar" ext="jar" status="no" details="" size="105624" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.equinox\org.eclipse.equinox.common\jars\org.eclipse.equinox.common-3.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/equinox/org.eclipse.equinox.common/3.6.0/org.eclipse.equinox.common-3.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.osgi" name="org.eclipse.osgi">
+			<revision name="3.7.1" status="release" pubdate="20131023135826" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2526" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.osgi\org.eclipse.osgi\ivy-3.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/osgi/org.eclipse.osgi/3.7.1/org.eclipse.osgi-3.7.1.pom"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.runtime" conf="compile, runtime" rev="3.7.1" rev-constraint-default="3.7.1" rev-constraint-dynamic="3.7.1" callerrev="3.7.0"/>
+				<caller organisation="org.eclipse.core" name="org.eclipse.core.filesystem" conf="compile, runtime" rev="3.7.1" rev-constraint-default="3.7.1" rev-constraint-dynamic="3.7.1" callerrev="1.3.100"/>
+				<artifacts>
+					<artifact name="org.eclipse.osgi" type="jar" ext="jar" status="no" details="" size="1363464" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.eclipse.osgi\org.eclipse.osgi\jars\org.eclipse.osgi-3.7.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/osgi/org.eclipse.osgi/3.7.1/org.eclipse.osgi-3.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javassist" name="javassist">
+			<revision name="3.12.1.GA" status="release" pubdate="20101123012130" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="2999" time="0" location="C:\Users\ngpgo\.ivy2\cache\javassist\javassist\ivy-3.12.1.GA.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="3.12.1.GA" rev-constraint-default="3.12.1.GA" rev-constraint-dynamic="3.12.1.GA" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="javassist" type="jar" ext="jar" status="no" details="" size="644148" time="0" location="C:\Users\ngpgo\.ivy2\cache\javassist\javassist\jars\javassist-3.12.1.GA.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.6" status="release" pubdate="20150918043528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2517" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.pom"/>
+				<caller organisation="nl.tudelft.jpacman" name="jpacman-framework" conf="test, compile, provided, test-internal, runtime, optional" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7132001" time="0" location="C:\Users\ngpgo\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.6.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

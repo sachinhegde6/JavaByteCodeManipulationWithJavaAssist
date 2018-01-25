@@ -1,0 +1,73 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set(C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java, C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java, C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java, C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java, C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java, C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java, C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java, C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java, C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java, C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java, C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java, C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java, C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java, C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java, C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java, C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java, C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java, C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java, C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java, C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 3 sources: invalidated sources (6) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Java sources to C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\target\test-classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@136c41c8 directly...[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.3169408 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.069743787 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.392596054 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, equals, GameTest, stop, notifyAll, <init>, g, l, p, setUpStreams, toString, getClass, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, getLevel, wait, SinglePlayerGameTest, spg, equals, getPlayers, notifyAll, <init>, l, p, toString, getClass, init, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, getPlayerFactory, wait, equals, playerFactory, notifyAll, <init>, g, toString, GameFactoryTest, getClass, init, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Ashwin PC\Desktop\new 1\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameFactoryTest.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\GameTest.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The C:\Users\Ashwin PC\Downloads\jpacman-framework\src\test\java\nl\tudelft\jpacman\game\SinglePlayerGameTest.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

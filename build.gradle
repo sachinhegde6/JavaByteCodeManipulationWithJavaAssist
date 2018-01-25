@@ -1,0 +1,69 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+//apply plugin: 'application'
+//group = 'nl.tudelft.jpacman'
+//mainClassName = "JavaAssistManipulator"
+version = '7.0.0'
+
+description = """"""
+
+sourceCompatibility = 1.8
+targetCompatibility =   1.8
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}
+
+repositories {
+        
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+
+task runOriginalApp(dependsOn:jar) << {
+    javaexec {
+        main="-jar"; args ".\\src\\main\\resources\\original\\jpacman-framework-7.0.0-all.jar"
+    }
+}
+
+task mutate(type: JavaExec, dependsOn:[runOriginalApp]) {
+    classpath sourceSets.main.runtimeClasspath
+    main = "JavaAssistManipulator"
+}
+
+task runMutatedApp(dependsOn:[jar, runOriginalApp, mutate]) << {
+    javaexec {
+        main="-jar"; args ".\\src\\main\\resources\\Mutated\\jpacman-framework-7.0.0-all.jar"
+    }
+}
+
+task comparator(type: JavaExec) {
+    classpath sourceSets.main.runtimeClasspath
+    main = "Comparator"
+}
+
+
+dependencies {
+    compile group: 'javassist', name: 'javassist', version: '3.12.1.GA'
+    compile group: 'org.eclipse.jdt', name: 'org.eclipse.jdt.core', version: '3.10.0'
+    compile group: 'com.google.guava', name: 'guava', version:'21.0'
+    compile group: 'org.junit.vintage', name: 'junit-vintage-engine', version:'4.12.0-M4'
+    compile group: 'org.checkerframework', name: 'checker-qual', version:'2.1.10'
+    compile group: 'org.checkerframework', name: 'checker', version:'2.1.10'
+    compile group: 'org.checkerframework', name: 'jdk8', version:'2.1.10'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version:'5.0.0-M4'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version:'5.0.0-M4'
+    testCompile group: 'org.junit.platform', name: 'junit-platform-runner', version:'1.0.0-M4'
+    testCompile group: 'org.junit.platform', name: 'junit-platform-launcher', version:'1.0.0-M4'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-params', version:'5.0.0-M4'
+    testCompile group: 'junit', name: 'junit', version:'4.12'
+    testCompile group: 'org.mockito', name: 'mockito-core', version:'2.7.19'
+    testCompile group: 'org.assertj', name: 'assertj-core', version:'3.6.2'
+    testCompile group: 'info.cukes', name: 'cucumber-java', version:'1.2.5'
+    testCompile group: 'info.cukes', name: 'cucumber-junit', version:'1.2.5'
+}
+
+test {
+    testLogging{
+        events "passed", "skipped", "failed"
+    }
+}
+
